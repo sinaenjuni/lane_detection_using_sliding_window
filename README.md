@@ -66,6 +66,12 @@ ninja
 sudo ninja install
 ```
 
+## Profiling
+### CPU
+![](./data/cpu.png)
+### GPU
+![](./data/gpu.png)
+
 
 ## License
 

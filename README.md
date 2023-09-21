@@ -10,7 +10,7 @@
 ## About
 This project's purpose is to create Lane detection algorithm using sliding window method
 
-![](/data/output_video.gif)
+![](./data/output_video.gif)
 
 ## Prerequisites
 

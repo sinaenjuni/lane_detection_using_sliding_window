@@ -1,0 +1,347 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"src/module1/CMakeLists.txt",
+			"thirdparty/easy_profiler/install/release/lib/cmake/easy_profiler/easy_profilerTargets.cmake",
+			"thirdparty/easy_profiler/install/release/lib/cmake/easy_profiler/easy_profilerConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"file" : 3,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 27,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_CHRONO_STEADY_CLOCK=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_CHRONO_HIGHRES_CLOCK=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_START_LISTEN_ON_STARTUP=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_MEASURE_STORAGE_EXPAND=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_STORAGE_EXPAND_BLOCKS_ON=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_TRUNCATE_LONG_RUNTIME_NAMES=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_CHECK_MAX_VALUE_DATA_SIZE=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_IMPLICIT_THREAD_REGISTRATION=1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_REMOVE_EMPTY_UNGUARDED_THREADS=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_LOG_ENABLED=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_PRETTY_PRINT_FUNCTIONS=0"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-DEASY_OPTION_BUILTIN_COLORS=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BUILD_WITH_EASY_PROFILER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EASY_DEFAULT_PORT=28077"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EASY_PROFILER_VERSION_MAJOR=2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EASY_PROFILER_VERSION_MINOR=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EASY_PROFILER_VERSION_PATCH=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/shinhyeonjun/code/pp_lane_detection/src/module1/includes"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/include/opencv4"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/eigen3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/shinhyeonjun/code/pp_lane_detection/thirdparty/easy_profiler/install/release/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "module1::@8c8a1980c36cbae44df9"
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/shinhyeonjun/thirdparty/OpenCV/install/lib -Wl,-rpath,/Users/shinhyeonjun/code/pp_lane_detection/thirdparty/easy_profiler/install/release/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src/module1/libmodule1.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_gapi.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_highgui.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_ml.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_objdetect.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_photo.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_stitching.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_video.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_calib3d.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_dnn.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_features2d.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_flann.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_videoio.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_imgcodecs.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_imgproc.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/shinhyeonjun/thirdparty/OpenCV/install/lib/libopencv_core.4.7.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/Users/shinhyeonjun/code/pp_lane_detection/thirdparty/easy_profiler/install/release/lib/libeasy_profiler.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

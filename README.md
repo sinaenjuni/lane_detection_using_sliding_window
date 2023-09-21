@@ -67,9 +67,9 @@ sudo ninja install
 ```
 
 ## Profiling
-### CPU
+### CPU (about 256.6ms)
 ![](./data/cpu.png)
-### GPU
+### GPU (about 38.7ms)
 ![](./data/gpu.png)
 
 
